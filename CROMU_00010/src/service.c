@@ -43,7 +43,7 @@ and addresses
 */
 
 
-int main(){
+int main(int, char**, char**){
 	//new
 	psList turnList = init_turnList();
 	pmap thisMap = init_map("Newville");

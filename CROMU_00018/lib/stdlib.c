@@ -74,7 +74,7 @@ int toupper( int c )
         return c;
 }
 
-int strcmp( char *str1, char *str2 )
+int strcmp( char const *str1, char const *str2 )
 {
     size_t i;
 

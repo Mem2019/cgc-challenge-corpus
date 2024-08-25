@@ -39,7 +39,7 @@ double atof(const char *str);
 int atoi(const char *str);
 int abs( int );
 
-int strcmp( char *str1, char *str2 );
+int strcmp( char const *str1, char const *str2 );
 char *strcpy( char *dest, char *src );
 char *strncpy( char *dest, const char *src, size_t num );
 size_t strlen( const char *str );
